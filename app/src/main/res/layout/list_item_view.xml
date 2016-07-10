@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"  android:background="?android:attr/activatedBackgroundIndicator"
+    android:orientation="vertical" android:layout_width="fill_parent">
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_marginBottom="5dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp" >
+    </ImageView>
+
+    <TextView android:text="@+id/name_view"
+        android:id="@+id/name_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/image_view"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp">
+    </TextView>
+
+    <TextView android:text="@+id/size_view"
+        android:id="@+id/size_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image_view"
+        android:layout_below="@+id/name_view"
+        android:layout_marginLeft="10dp">
+
+    </TextView>
+    <TextView android:text="@+id/date_view"
+        android:id="@+id/date_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_view"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp">
+    </TextView>
+</RelativeLayout>

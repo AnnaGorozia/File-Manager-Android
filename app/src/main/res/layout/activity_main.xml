@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.example.anna.assign2.MainActivity">
+
+    <TextView
+        android:id="@+id/path"
+        android:layout_width="match_parent"
+        android:singleLine="true"
+        android:layout_height="30dp"/>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_below="@+id/path"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:layout_marginTop="10dp"/>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_below="@+id/path"
+        android:numColumns="auto_fit"
+        android:gravity="center"
+        android:columnWidth="100dp"
+        android:stretchMode="columnWidth"
+        android:layout_width="fill_parent"
+        android:visibility="gone"
+        android:layout_height="fill_parent"
+        />
+
+</RelativeLayout>

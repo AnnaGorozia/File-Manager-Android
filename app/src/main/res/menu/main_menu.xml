@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/delete"
+        android:title="Menu 4"
+        android:titleCondensed="M4"
+        android:icon="@drawable/trash"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
